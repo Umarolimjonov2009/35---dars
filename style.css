@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+#notif{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.not{
+    padding: 10px 20px;
+    width: 350px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.not button{
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    min-height: 100vh;
+}
+.ota button{
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: white;
+}
+.ota button:nth-child(1){
+    background-color: green;
+}
+.ota button:nth-child(2){
+    background-color: orange;
+}
+.ota button:nth-child(3){
+    background-color: red;
+}
